@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Shipping">
+  <DataContextMoniker Name="/ShippingDataContext" />
+  <nestedChildShapes>
+    <classShape Id="ec90d6d3-1310-43d9-b637-4f925da41e30" absoluteBounds="4.125, 0.5, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/ShippingDataContext/Customer" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7eb6410b-c83f-480a-b73e-ee6f1bb53eef" absoluteBounds="4.1400000000000006, 0.96, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="44c77764-8604-4c2c-8dc0-c40505604e44" absoluteBounds="7.375, 0.625, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/ShippingDataContext/ShippingAddress" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c333400d-4e62-4769-9f5f-e9021e1ff05c" absoluteBounds="7.3900000000000006, 1.085, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6e530efe-357e-4278-a1cd-1c85bb71357a" absoluteBounds="1, 0.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/ShippingDataContext/Order" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9c3ecfca-947e-45f2-a907-459435ce11fd" absoluteBounds="1.0149999999999997, 0.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
