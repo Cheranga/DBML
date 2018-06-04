@@ -29,6 +29,11 @@ namespace DBML.Console
                 var customer = shippingModel.Customers.AsNoTracking().FirstOrDefault();
             }
 
+            using (var customModel = new MyCustomDataContext())
+            {
+                var customer = customModel.Customers.AsNoTracking().FirstOrDefault();
+            }
+
             //using (var customerOrdersModel = new CustomerDbEntities())
             //{
             //    var customer = customerOrdersModel.Customers.AsNoTracking().FirstOrDefault();

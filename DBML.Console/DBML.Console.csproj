@@ -57,6 +57,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Customers.dbml</DependentUpon>
     </Compile>
+    <Compile Include="MyCustom.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyCustom.dbml</DependentUpon>
+    </Compile>
     <Compile Include="Orders.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -80,6 +85,11 @@
     <None Include="Customers.dbml">
       <Generator>MSLinqToSQLGenerator</Generator>
       <LastGenOutput>Customers.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MyCustom.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>MyCustom.designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
     <None Include="Orders.dbml">
@@ -116,6 +126,14 @@
     <None Include="Shipping.dbml.layout">
       <DependentUpon>Shipping.dbml</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MyCustom.dbml.layout">
+      <DependentUpon>MyCustom.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\Tables.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
